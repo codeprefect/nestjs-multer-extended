@@ -53,7 +53,7 @@ export function AmazonS3FileInterceptor(
             const error = transformException(err);
             return reject(error);
           }
-          resolve();
+          resolve({});
         }),
       );
 
